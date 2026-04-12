@@ -5,10 +5,11 @@
 }
 
 body{
+    margin: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--yellow-color);
 }
 p{
@@ -47,7 +48,7 @@ p{
 .course_date{
     margin-top: 12px;
     font-size: 14px;
-    font-weight: medium;
+    font-weight: 500;
     color: var(--black-gray-color);
 }
 .course_name{
